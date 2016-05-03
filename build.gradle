@@ -19,7 +19,7 @@ wrapper {
 }
 
 ext {
-    dropwizard = '0.9.2'
+    dropwizard = '1.0.0-rc2'
     guice = '4.0'
 }
 
@@ -35,7 +35,7 @@ dependencies {
     compile "com.google.inject.extensions:guice-servlet:$guice"
     compile "com.google.inject.extensions:guice-multibindings:$guice"
     compile "io.dropwizard:dropwizard-core:$dropwizard"
-    compile 'org.glassfish.hk2:guice-bridge:2.4.0-b31'
+    compile 'org.glassfish.hk2:guice-bridge:2.4.0-b34'
     compile 'ru.vyarus:generics-resolver:2.0.1'
 
     testCompile "io.dropwizard:dropwizard-auth:$dropwizard"
